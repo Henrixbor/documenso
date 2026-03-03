@@ -16,7 +16,7 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
         <Text className="my-4 text-base text-slate-400">
           <Trans>
             This document was sent using{' '}
-            <Link className="text-[#e6ff6a]" href="https://zenith.network">
+            <Link className="text-[#00273f]" href="https://zenith.network">
               Zenith Sign
             </Link>
             .

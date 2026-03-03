@@ -31,7 +31,7 @@ export type ConfirmTeamEmailProps = {
 
 export const ConfirmTeamEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://documenso.com',
+  baseUrl = 'https://zenith.network',
   teamName = 'Team Name',
   teamUrl = 'demo',
   token = '',
@@ -113,7 +113,7 @@ export const ConfirmTeamEmailTemplate = ({
 
               <Section className="mb-6 mt-8 text-center">
                 <Button
-                  className="inline-flex items-center justify-center rounded-lg bg-documenso-500 px-6 py-3 text-center text-sm font-medium text-black no-underline"
+                  className="inline-flex items-center justify-center rounded-lg bg-[#00273f] px-6 py-3 text-center text-sm font-medium text-[#e6ff6a] no-underline"
                   href={`${baseUrl}/team/verify/email/${token}`}
                 >
                   <Trans>Accept</Trans>

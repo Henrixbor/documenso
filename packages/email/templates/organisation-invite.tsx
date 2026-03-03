@@ -28,7 +28,7 @@ export type OrganisationInviteEmailProps = {
 
 export const OrganisationInviteEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://documenso.com',
+  baseUrl = 'https://zenith.network',
   senderName = 'John Doe',
   organisationName = 'Organisation Name',
   token = '',
@@ -85,7 +85,7 @@ export const OrganisationInviteEmailTemplate = ({
 
               <Section className="mb-6 mt-6 text-center">
                 <Button
-                  className="bg-documenso-500 inline-flex items-center justify-center rounded-lg px-6 py-3 text-center text-sm font-medium text-black no-underline"
+                  className="bg-[#00273f] inline-flex items-center justify-center rounded-lg px-6 py-3 text-center text-sm font-medium text-[#e6ff6a] no-underline"
                   href={`${baseUrl}/organisation/invite/${token}`}
                 >
                   <Trans>Accept</Trans>

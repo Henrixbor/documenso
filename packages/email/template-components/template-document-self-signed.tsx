@@ -29,7 +29,7 @@ export const TemplateDocumentSelfSigned = ({
       <Section className="flex-row items-center justify-center">
         <Section>
           <Column align="center">
-            <Text className="text-base font-semibold text-[#e6ff6a]">
+            <Text className="text-base font-semibold text-[#00273f]">
               <Img
                 src={getAssetUrl('/static/completed.png')}
                 className="-mt-0.5 mr-2 inline h-7 w-7 align-middle"
@@ -39,7 +39,7 @@ export const TemplateDocumentSelfSigned = ({
           </Column>
         </Section>
 
-        <Text className="text-primary mb-0 mt-6 text-center text-lg font-semibold">
+        <Text className="text-[#00273f] mb-0 mt-6 text-center text-lg font-semibold">
           <Trans>You have signed “{documentName}”</Trans>
         </Text>
 
@@ -49,7 +49,7 @@ export const TemplateDocumentSelfSigned = ({
             <Link
               href={signUpUrl}
               target="_blank"
-              className="text-documenso-700 hover:text-documenso-600 whitespace-nowrap"
+              className="text-[#00273f] hover:text-[#003a5c] whitespace-nowrap"
             >
               free account
             </Link>{' '}

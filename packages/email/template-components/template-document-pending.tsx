@@ -33,7 +33,7 @@ export const TemplateDocumentPending = ({
           </Column>
         </Section>
 
-        <Text className="text-primary mb-0 text-center text-lg font-semibold">
+        <Text className="text-[#00273f] mb-0 text-center text-lg font-semibold">
           <Trans>“{documentName}” has been signed</Trans>
         </Text>
 
