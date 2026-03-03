@@ -713,7 +713,7 @@ export const EnvelopeEditorSettingsDialog = ({
                                       </SelectItem>
                                     ))}
 
-                                    <SelectItem value={'-1'}>Documenso</SelectItem>
+                                    <SelectItem value={'-1'}>Zenith Sign</SelectItem>
                                   </SelectContent>
                                 </Select>
                               </FormControl>

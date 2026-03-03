@@ -1,6 +1,6 @@
 {
-  "name": "Documenso",
-  "short_name": "Documenso",
+  "name": "Zenith Sign",
+  "short_name": "Zenith Sign",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#A2E771",
+  "theme_color": "#e6ff6a",
   "background_color": "#FFFFFF",
   "display": "standalone"
 }
