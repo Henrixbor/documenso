@@ -41,7 +41,7 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
         <Text className="my-8 text-sm text-slate-400">
           Zenith Network AG
           <br />
-          Baarerstrasse 10, 6300 Zug, Switzerland
+          Meritullinkatu 1B, 00170 Helsinki, Finland
         </Text>
       )}
     </Section>
