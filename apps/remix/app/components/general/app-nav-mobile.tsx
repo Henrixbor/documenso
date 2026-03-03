@@ -124,7 +124,7 @@ export const AppNavMobile = ({ isMenuOpen, onMenuOpenChange }: AppNavMobileProps
           </div>
 
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Zenith Network AG
+            © {new Date().getFullYear()} Gevulot Oy (3397259-4)
             <br />
             <Trans>All rights reserved.</Trans>
           </p>

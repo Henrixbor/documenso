@@ -39,7 +39,7 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
 
       {!branding.brandingEnabled && (
         <Text className="my-8 text-sm text-slate-400">
-          Zenith Network AG
+          Gevulot Oy (3397259-4)
           <br />
           Meritullinkatu 1B, 00170 Helsinki, Finland
         </Text>

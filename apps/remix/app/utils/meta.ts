@@ -19,7 +19,7 @@ export const appMetaTags = (title?: string) => {
     },
     {
       name: 'author',
-      content: 'Zenith Network AG',
+      content: 'Gevulot Oy (3397259-4)',
     },
     {
       name: 'robots',
